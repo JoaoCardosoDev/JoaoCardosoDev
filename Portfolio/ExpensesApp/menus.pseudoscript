@@ -1,0 +1,123 @@
+
+funcao welcome():
+
+    imprime("""
+          ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+         /                                    \
+         | ╔════════════════════════════════╗ |
+         | ║            Bem vindo           ║ |
+         | ║                                ║ |
+         | ║  ---------------------------   ║ |
+         | ║ |                           |  ║ |
+         | ║ |  Aqui poderá consultar o  |  ║ |
+         | ║ |  estado das suas finanças |  ║ |
+         | ║ |                           |  ║ |
+         | ║  ---------------------------   ║ |
+         | ║     Literacia financeira       ║ |
+         | ║         para todos!            ║ |
+         | ╚════════════════════════════════╝ |
+         \____________________________________/
+            
+
+    """)
+
+funcao escolha():
+    imprime("""
+          ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+         /                                    \
+         | ╔════════════════════════════════╗ |
+         | ║       Controlo Despesas        ║ |
+         | ║                                ║ |
+         | ║  ---------------------------   ║ |
+         | ║ |                           |  ║ |
+         | ║ |  1) Adicionar movimento   |  ║ |
+         | ║ |  2) Verificar balanços    |  ║ |
+         | ║ |  q) Quit                  |  ║ |
+         | ║ |                           |  ║ |
+         | ║  ---------------------------   ║ |
+         | ║     Literacia financeira       ║ |
+         | ║         para todos!            ║ |
+         | ╚════════════════════════════════╝ |
+         \____________________________________/
+            
+
+    """)
+
+funcao balanco(): 
+    imprime("""
+          ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+         /                                    \
+         | ╔════════════════════════════════╗ |
+         | ║       Controlo Balanço         ║ |
+         | ║                                ║ |
+         | ║  ---------------------------   ║ |
+         | ║ |                           |  ║ |
+         | ║ |  1) Resumo categorias     |  ║ |
+         | ║ |  2) Mov por categoria     |  ║ |
+         | ║ |  3) Saldo total           |  ║ |
+         | ║ |  q) Voltar atrás          |  ║ |
+         | ║ |                           |  ║ |
+         | ║  ---------------------------   ║ |
+         | ║     Literacia financeira       ║ |
+         | ║         para todos!            ║ |
+         | ╚════════════════════════════════╝ |
+         \____________________________________/
+            
+
+    """)
+
+
+funcao saldocat(movimentoslista): #Saldo por categorias
+    saldodb = ()
+
+    para cada i em movimentoslista[i]:
+        se movimentoslista[i].categoria não está em saldodb.chave:
+            saldodb.adicionar(movimentoslista[i].categoria -> movimentoslista[i].saldo)
+        senao:
+            saldodb.movimentoslista[i].categoria += movimentoslista[i].saldo
+
+    imprime("""
+         ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+        /                                    \
+        | ╔════════════════════════════════╗ |
+    """)
+
+    por cada chave, valor em saldodb():
+        imprime("     {chave} -> {valor}€     ")
+
+    imprime("""    
+        | ╚════════════════════════════════╝ |
+        \____________________________________/       
+
+        """)
+
+funcao saldomov(cat, movimentoslista[]): #Movimentos por categoria
+    
+    saldodb = ()
+    para cada i em movimentoslista[i]:
+        se cat == movimentoslista[i].categoria:
+
+            para cada i em movimentoslista[i]:
+                se movimentoslista[i].categoria == cat:
+                    saldodb.adicionar(movimentoslista[i].descricao -> movimentoslista[i].saldo)
+                senao:
+                    saldodb.movimentoslista[i].categoria += movimentoslista[i].saldo
+
+
+      
+                imprime("""
+                 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+                /                                    \
+                | ╔════════════════════════════════╗ |
+                                {cat}  
+                """)
+                por cada chave, valor em saldodb():
+                    imprime("     {chave} -> {valor}€     ")
+
+                imprime("""    
+                | ╚════════════════════════════════╝ |
+                \____________________________________/       
+
+                """)
+        senao:
+            imprime("Categoria 404")

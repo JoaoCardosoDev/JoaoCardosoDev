@@ -1,0 +1,45 @@
+###Base de dados
+movimentoslista = []
+###
+
+#Adiciona movimento e dentro da mesma função adiciona à DB
+funcao adicionarmovimento():
+    opcao = 0
+    enquanto opcao =! 'c' ou opcao =! 'd':
+        entrada("Por favor indique se quer adicionar movimento a crédito(c) ou débito(d): ", opcao)
+    entrada("Indique o valor: ", saldo)
+    se opcao == d:
+        enquanto saldo < 0:
+            #está aqui a solução para a introdução incorreta por parte do utilizador, semanticamente pode estar um pouco rough
+            entrada("Mesmo que o valor seja a débito por favor indique em positivo, o sistema irá converter: ", saldo)
+        saldo = 0 - saldo
+    entrada("Indique a categoria do movimento: ", categoria)
+    entrada("Poderá agora introduzir uma breve descrição: ", descricao)
+    id = movimentoslista.tamanho()+1  
+    id = movimento(saldo, categoria, descricao)
+    movimentoslista.adicionar(id)
+    imprime("""
+        Movimento adicionado com sucesso!
+        *{id.categoria}
+        *{id.saldo}€
+        *{id.descricao}
+    """)
+    
+
+funcao saldototal():
+    saldo = 0
+    para cada i em movimentolista[i]:
+        saldo = movimentolista[i].saldo + saldo
+    imprime("O seu saldo total é {saldo}€") 
+
+
+
+modelo movimento:
+    contrutor(saldo, categoria, descricao):
+        movimento.saldo = 0
+        movimento.categoria = ''
+        movimento.descricao = ''
+
+    
+
+    

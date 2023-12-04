@@ -1,0 +1,26 @@
+importar menus como menu
+importar modelos
+
+menu.welcome()
+opcao = 0
+enquanto opcao =! 'q':
+    menu.escolha()
+    entrada("Indique a sua opção: ", opcao)
+    se opcao == 1:
+        adicionarmovimento()
+    se opcao == 2:
+        opcao2 = 0
+        enquanto opcao2 =! 'q':
+            menu.balanco()
+            entrada("Indique a sua opção: ", opcao)
+            se opcao2 == 1:
+                menu.saldocat()
+            se opcao2 == 2:
+                entrada("Indique a categoria a visualizar: ", cat)
+                menu.saldomov(cat, movimentoslista[])
+            se opcao2 == 3:
+                saldototal()
+
+
+
+imprime("Volte sempre!")
