@@ -21,6 +21,9 @@ SKILLS 🌐
     Technical skills
 
 	Git 🧑‍💻
+	HTML 🌐
+	CSS 🎨
+	JavaScript 🚀
 	
 CONTACTS 📧
 
