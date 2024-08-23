@@ -1,81 +1,67 @@
-🌟 Introduction 🌟
+# 🌟 Introduction 🌟
 
-Hey there! I'm João Cardoso, a 31-year-old professional making a leap from the world of hospitality into the exciting realm of web development. 
-Having thrived as a Senior Hotel Receptionist, my journey is now taking a tech turn.
+Hey there! I'm João Cardoso, a 32-year-old professional transitioning from the world of hospitality into the exciting realm of web development. Having excelled as a Senior Hotel Receptionist, my journey is now taking a tech turn.
 
-With a knack for communication, teamwork, and problem-solving cultivated in the luxury hotel industry, I'm currently diving into a Web Development 
-program at ETIC_Algarve. Here, I'm immersing myself in HTML, CSS, Javascript, Python, and much more, unlocking the doors to a whole new skill set.
+With a strong foundation in communication, teamwork, and problem-solving cultivated in the luxury hotel industry, I'm currently deepening my expertise in a Web Development program at ETIC_Algarve. Here, I'm immersing myself in technologies like HTML, CSS, JavaScript, Python, Git, Docker, React, Django, and more, unlocking the doors to a whole new skill set.
 
-Follow me on this adventure where I merge my hospitality finesse with cutting-edge tech skills, crafting a story of adaptability and growth. 🚀✨
+Join me on this adventure where I blend my hospitality finesse with cutting-edge tech skills, crafting a story of adaptability, growth, and innovation. 🚀✨
 
-SKILLS 🌐
+## 🛠 Skills 🌐
 
-    Soft skills
+### Soft Skills
+- **Communication** 💬
+- **Teamwork** 👥
+- **Problem-solving** 🤔
+- **Attention to detail** 🔍
+- **Learning Agility** 🔄
 
-	Communication 💬
-	Teamwork 👥
-	Problem-solving 🤔
-	Attention to detail 🔍
-	Learning Agility 🔄
-	
-    Technical skills
+### Technical Skills
+- **Git** 🧑‍💻
+- **HTML** 🌐
+- **CSS** 🎨
+- **JavaScript** 🚀
+- **Python** 🐍
+- **React** ⚛️
+- **Django** 🌍
+- **Docker** 🐳
 
-	Git 🧑‍💻
-	HTML 🌐
-	CSS 🎨
-	JavaScript 🚀
-	
-CONTACTS 📧
+## 📧 Contacts
+- **Email:** jmcardoso90@gmail.com
+- **LinkedIn:** [João Cardoso on LinkedIn](https://www.linkedin.com/in/joao-cardoso-dev) 🔗
 
-	jmcardoso90@gmail.com 📧
-	www.linkedin.com/in/joao-cardoso-dev 🔗
+## 💼 Work Experience
 
-WORK EXPERIENCE 💼
+### 3HB Faro - Senior Hotel Receptionist
+**May 2022 - December 2023**
 
-	3HB Faro - Senior Hotel Receptionist
-	(MAY 2022 - DECEMBER 2023)
+- **Guest Services & Check-ins/Check-outs:** Ensured a smooth process while welcoming guests with utmost professionalism and warmth at a 5-star luxury hotel.
+- **Supervision & Training:** Onboarded new receptionists and oversaw junior staff to ensure a harmonious and efficient work environment.
+- **Hotel Administrative Tasks:** Managed cash transactions, maintained accurate records of sensitive information, and ensured data accuracy.
+- **Customer Relations and Conflict Resolution:** Anticipated guest needs, resolved complaints/issues, and acted as a liaison between guests and hotel departments.
 
-		Guest Services & Check-ins/Check-outs - Guaranteed a smooth process while welcoming the
-		guests with utmost professionalism and warmth as well as satisfying any guest enquiry at
-		a 5-star luxury standard hotel.
-		
-		Supervision & Training - Onboarded new receptionists and oversaw the junior reception 
-		staff to ensure a harmonious and efficient work environment.
-		
-		Hotel Administrative Tasks - Handled cash transactions, day-to-day records in paper and
-		digital format of sensitive information, and made sure they are correct and up-to-date.
-		
-		Customer Relations and Conflict Resolution - Fostered positive customer relations by 
-		anticipating needs and expectations, addressed and resolved guest complaints/issues, acted
-		as a liaison between the guest and the various hotel departments.
+### Inatel Albufeira - Hotel Receptionist
+**June 2013 - May 2022**
 
-	Inatel Albufeira - Hotel Receptionist
-	(JUNE 2013 - MAY 2022)
+- **First Contact with Hospitality:** Quickly adapted and became self-sufficient, developing essential skills.
+- **Attention to Detail & Multitasking:** Developed high attention to detail, organizational skills, and multitasking abilities in a high-volume, unpredictable environment.
+- **Communication and Teamwork:** Enhanced communication skills and built strong connections with colleagues and guests.
 
-		First contact with hospitality - Swiftly passed the onboarding process and was able to 
-		be self-sufficient to start developing essential skills.
-		
-		Attention to detail & Multitasking - The nature of the area of employment made me develop 
-		a high attention to detail, organizational skills, and multitasking ability due to the high
-		volume of work and unpredictability.
-		
-		Communication and Teamwork - Throughout my experience within the company, constant 
-		communication with the public and the different sectors within the hotel honed my ability
-		to better communicate and develop healthy and meaningful connections with my teammates.
+## 🎓 Education
 
-EDUCATION 🎓
+### ETIC_Algarve - Web Development (Higher Professional Technical Course - EQF Level 5)
+**October 2023 - July 2025** - *1220 hours*
 
-	ETIC_Algarve
-	WEB DEVELOPMENT - HIGHER PROFESSIONAL TECHNICAL COURSE (EQF LEVEL 5)
-	
-	October 2023 - July 2025 - 1220 hours
-	Trainees will learn the necessary concepts to work on the web and in the cloud, using technologies 
-	such as HTML, CSS, Javascript, Python, Github, Docker, etc.
-	The aim is for trainees to be able to develop a web project in all its aspects: Backend, Frontend,
-	Infrastructure, etc.
+Trainees learn essential concepts for working on the web and in the cloud, using technologies such as HTML, CSS, JavaScript, Python, Git, Docker, etc. The goal is to develop a comprehensive web project encompassing Backend, Frontend, Infrastructure, and more.
 
+## 🌱 Continuous Learning & Events
 
+I am actively engaged in continuous learning and have participated in several industry events to sharpen my skills, including:
+- **ChatGPT Masterclass**
+- **Elixir Day**
+- **Entrepreneurship in the Algarve**
+- **Algarve Blockchain Community**
+- **Agile Scrum Workshop**
 
+---
 
-
-
+Let's connect and collaborate on creating innovative digital experiences! Feel free to reach out.
